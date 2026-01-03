@@ -7,18 +7,18 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function home() {
-        return 'Home Page';
+        return view('pages.home');
     }
 
     public function about() {
-        return 'About Page';
+        return view('pages.about');
     }
 
     public function projects() {
-        return 'Projects Page';
+        return view('pages.projects');
     }
 
     public function contact() {
-        return 'Contact Page';  
+        return view('pages.contact');
     }
 }
