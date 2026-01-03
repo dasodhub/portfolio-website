@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
+@extends('layouts.master')
+
+@section('title', 'Contact')
+
+@section('content')
     <h1>Contact Me</h1>
     <p>Email: example@gmail.com</p>
-</body>
-</html>
+@endsection
